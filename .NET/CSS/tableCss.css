@@ -1,0 +1,71 @@
+#tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tabla td, #tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tabla tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tabla tr:hover {background-color: #ddd;}
+  
+  #tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /*Boton azul*/
+  .blue {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #2600ff 5%, #2600ff 100%);
+	background-color:#2600ff;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#fafafa;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.blue:hover {
+	background:linear-gradient(to bottom, #2600ff 5%, #2600ff 100%);
+	background-color:#2600ff;
+}
+.blue:active {
+	position:relative;
+	top:1px;
+}
+/*Boton rojo*/
+.red {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ff0000 5%, #ff0000 100%);
+	background-color:#ff0000;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#fafafa;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.red:hover {
+	background:linear-gradient(to bottom, #ff0000 5%, #ff0000 100%);
+	background-color:#ff0000;
+}
+.red:active {
+	position:relative;
+	top:1px;
+}
